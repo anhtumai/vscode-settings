@@ -1,0 +1,20 @@
+{
+    "workbench.colorTheme": "Vim Dark Hard",
+    "git.openRepositoryInParentFolders": "never",
+    "vim.easymotion": true,
+    "vim.hlsearch": true,
+    "vim.vimrc.enable": true,
+    "vim.useSystemClipboard": true,
+    "vim.useCtrlKeys": true,
+    "vim.handleKeys": {
+        "<C-s>": true,
+        "<C-k>": true,
+    },
+    "vim.vimrc.path": "/home/anhtumai/.config/Code/User/.vimrc",
+    "vim.normalModeKeyBindingsNonRecursive": [
+        {
+          "before": ["g", "H"],
+          "commands": [{ "command": "editor.action.showDefinitionPreviewHover" }]
+        }
+    ]
+}
