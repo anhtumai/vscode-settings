@@ -728,7 +728,7 @@
         "command": "explorer.newFile"
     },
     {
-        "key": "ctrl+alt+p",
+        "key": "ctrl+shift+p",
         "command": "editor.action.clipboardPasteAction"
     },
     {
@@ -739,5 +739,13 @@
         "key": "ctrl+h",
         "command": "-extension.vim_ctrl+h",
         "when": "editorTextFocus && vim.active && vim.use<C-h> && !inDebugRepl"
+    },
+    {
+        "key": "ctrl+alt+p",
+        "command": "workbench.action.showCommands"
+    },
+    {
+        "key": "ctrl+shift+p",
+        "command": "-workbench.action.showCommands"
     }
 ]
